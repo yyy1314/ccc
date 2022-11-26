@@ -31,7 +31,7 @@ android {
     // 签名
     signingConfigs {
         release {
-            storeFile file('../keys/songtianlun.jks')
+            storeFile file('../keys/panduola.jks')
             storePassword 'qwer5200'
             keyAlias 'panduola'
             keyPassword 'qwer5200'
