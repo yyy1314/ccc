@@ -18,13 +18,6 @@ jobs:
       with:
         java-version: 1.8
     
-    - name: Checkout Android Keystore
-      uses: actions/checkout@v2
-      with:
-        repository: yyy1314/jks
-        token: ${{ secrets.TOKEN }}
-        path: keystore
-    
     - name: Build with Gradle
       run: bash ./gradlew assembleRelease
     
