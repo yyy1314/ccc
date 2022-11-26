@@ -21,7 +21,7 @@ jobs:
     - name: Checkout Android Keystore
       uses: actions/checkout@v2
       with:
-        repository: Potato-DiGua/android-key-store
+        repository: yyy1314/jks
         token: ${{ secrets.TOKEN }}
         path: keystore
     
