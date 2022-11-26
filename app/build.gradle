@@ -31,10 +31,10 @@ android {
     // 签名
     signingConfigs {
         release {
-            keyAlias keyProps['keyAlias']
-            keyPassword keyProps['keyPassword']
-            storeFile keyProps['storeFile'] ? file(keyProps['storeFile']) : null
-            storePassword keyProps['storePassword']
+            storeFile file('../keys/songtianlun.jks')
+            storePassword 'qwer5200'
+            keyAlias 'panduola'
+            keyPassword 'qwer5200'
         }
     }
 
